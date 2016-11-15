@@ -25,6 +25,8 @@ PATH_BAZEL="$PATH_HOME/bazel"
 PATH_CUDNN="$PATH_HOME"
 PATH_MODEL="$PATH_HOME/model"
 
+git submodule update --init --recursive
+
 # build tensorflow if not exist
 if [ ! -f "$PATH_HOME/lib64/libtensorflow.so" ]; then
 
