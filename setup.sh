@@ -21,9 +21,6 @@ wget_and_check() {
 # set paths for download
 PATH_HOME="$(pwd)"
 PATH_TF="$PATH_HOME/tensorflow"
-PATH_BAZEL="$PATH_HOME/bazel"
-PATH_CUDNN="$PATH_HOME"
-PATH_MODEL="$PATH_HOME/model"
 
 git submodule update --init --recursive
 
